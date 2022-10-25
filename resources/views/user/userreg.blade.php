@@ -2,6 +2,7 @@
 @section('title','User Registration')
 @section('body')
 
+sbit reg
 
 		<!-- BREADCRUMB -->
 		<div id="breadcrumb" class="section">

@@ -2,6 +2,7 @@
 @section('title','View All User')
 @section('body')
 
+hello
 <div class="col-12">
    <a href="reg/create" class="btn btn-success d-block">Add User</a>
 </div>

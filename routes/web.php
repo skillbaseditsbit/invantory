@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/','userRegistration@index');
+Route::get('/xyz','userRegistration@index');
 Route::get('/login','user\homeController@userlogin');
 Route::get('/practice','user\homeController@practice');
 
