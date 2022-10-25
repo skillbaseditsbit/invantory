@@ -20,7 +20,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/aaa','userRegistration@index');
 Route::get('/logins','user\homeController@userlogin');
 Route::get('/practice','user\homeController@practice');
-Route::get('/practice2','user\homeController@practice');
 
 Route::resources([
 	'reg'=>'userRegistration',
