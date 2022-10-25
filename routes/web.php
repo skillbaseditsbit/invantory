@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/aaa','userRegistration@index');
-Route::get('/login','user\homeController@userlogin');
+Route::get('/logins','user\homeController@userlogin');
 Route::get('/practice','user\homeController@practice');
 Route::get('/practice2','user\homeController@practice');
 
